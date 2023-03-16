@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# 일반 유저들의 맛집 트윗 검색기 - non-idol-fans tasty thread
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+모든 트윗을 검색할 수 없기 때문에 마음 50개 이상, 리트윗 100개 이상 트윗을 필터링 하여 검색합니다.
+</br>
+지명(ex. 강남, 홍대, 제주, 부산) 혹은 키워드(ex. 파스타, 디저트, 커피)로 검색하는 `키워드 검색`, </br>
+최근 여행지 관련 `여행 타래`, `맛집 타래` 등 스레드를 활용한 트윗이 늘어남에 따라 `타래 검색`이 가능합니다.
 
-## Available Scripts
+> **검색이 잘 안될 경우** </br> 검색창에서 `숫자를 조절`하거나 뒤에 붙어있는 `단어를 삭제`하고 `다시 검색`하면 더 많은 트윗 검색이 가능합니다.
 
-In the project directory, you can run:
+</br></br>
+[아이디어를 준 원조 트위터 맛집 검색기](https://twitter-michelin-guide.netlify.app/total.html)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Todo
+- URL : 하드코딩 ➡ 쿼리값 가공으로 짧게 코드 수정

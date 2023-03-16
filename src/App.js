@@ -21,7 +21,7 @@ function App() {
         <Input
           type='text'
           onChange={handleChange}
-          placeholder='지역명 혹은 다른 키워드로 검색이 가능합니다.'
+          placeholder='지역명 혹은 키워드로 검색'
         />
         <br />
         <Button onClick={keyword}>키워드 검색</Button>

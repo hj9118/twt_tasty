@@ -12,13 +12,14 @@ export const Button = styled.button`
   background-color: #1d9bf0;
   font-size: 1em;
   color: #fff;
-  margin: 1em;
+  margin: 1em 0.5em;
   padding: 2.5% 5%;
   border: none;
 `;
 
 export const Input = styled.input`
-  min-width: 40%;
+  width: 80%;
+  max-width: 400px;
   border: 3px solid #1d9bf0;
   margin: 0.5em;
   flex-basis: 50%;
@@ -29,4 +30,10 @@ export const Input = styled.input`
   :focus {
     outline: none;
   }
+`;
+
+export const Grid = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
