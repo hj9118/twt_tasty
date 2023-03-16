@@ -30,9 +30,3 @@ export const Input = styled.input`
     outline: none;
   }
 `;
-
-export const FlexGrid = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-`;
